@@ -13,7 +13,7 @@ if MODE == 1:
     alpha = input('string : ')
 
     # 두 개 만들고 둘 다 출력 | Create two outputs and print both
-    bravo = alpha.encode().hex().upper()
+    bravo = bytes.hex(alpha).upper()
     charlie = ''
     for part in alpha:
         charlie += (
