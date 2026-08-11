@@ -21,6 +21,7 @@
 여기도 **`HowToUse/`** 폴더를 만들어 두었습니다.
 
 제가 만든 **hex 변환기**, **유니코드 포인트 가져오기** 등의 파일을 넣어 두었습니다.
+가지고 노시든가여~ ㅋㅋ
 
 ---
 
@@ -28,7 +29,8 @@
 
 The **`toesc/`** folder contains a Python package I made.
 
-When you open and run a Python file directly, the program may close immediately after finishing, so you may not have enough time to see all of the output.
+When you open and run a Python file directly, the program may close immediately after finishing,
+so you may not have enough time to see all of the output.
 
 I made this package to help prevent that problem.
 You can use `toesc.english.end_process()` at the end of your program to wait until the `Esc` key is pressed before exiting.
@@ -38,3 +40,4 @@ You can use `toesc.english.end_process()` at the end of your program to wait unt
 I also created a **`HowToUse/`** folder.
 
 It contains some programs I made, including a **hex converter** and a program for **getting Unicode code points**.
+Go have fun~ lol
