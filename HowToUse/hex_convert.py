@@ -13,7 +13,7 @@ if MODE == 1:
     alpha = input('string : ')
 
     # 두 개 만들고 둘 다 출력 | Create two outputs and print both
-    bravo = bytes.fromhex(alpha).upper()
+    bravo = alpha.encode().hex().upper()
     charlie = ''
     for part in alpha:
         charlie += (
@@ -32,7 +32,7 @@ elif MODE == 2:
 
     # bytes.hex() : 16진수로 만들기 | bytes.hex() : Convert to hexadecimal
     # bytes.fromhex() : 16진수를 문자열로 | bytes.fromhex() : Convert hexadecimal to a string
-    bravo = alpha.encode().fromhex().decode()
+    bravo = bytes.fromhex(alpha).decode()
 
     print(bravo)
 
